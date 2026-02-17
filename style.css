@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: #e0f7fa;
+    color: #004d40;
+}
+
+h1 {
+    margin-top: 10px;
+    font-size: 2rem;
+}
+
+.instructions {
+    margin: 0 10px 10px;
+    font-size: 0.9rem;
+}
+
+canvas {
+    background: #c8f7c5;          /* light grass green */
+    border: 5px solid #2e7d32;    /* darker green border */
+    display: block;
+    margin: 0 auto 20px;
+    /* Responsive sizing: keep it square and fit screen */
+    width: 90vmin;
+    height: 90vmin;
+    max-width: 500px;
+    max-height: 500px;
+}
